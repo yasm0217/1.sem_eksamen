@@ -1,0 +1,52 @@
+body {
+    background-color: #f7c2b8;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+.menubutton {
+    width: 2em;
+    height: 2em;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+
+}
+
+.bar {
+    width: 1.8em;
+    height: 0.4em;
+    background-color: black;
+    transition: transform .5s;
+}
+
+.kryds .bar1 {
+    transform: rotate(45deg) translate(7px, 9px);
+}
+
+.kryds .bar2 {
+    opacity: 0;
+}
+
+.kryds .bar3 {
+    transform: rotate(-45deg) translate(7px, -7px);
+}
+
+nav {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.87);
+    width: 100%;
+
+    transform-origin: top;
+    transition: transform .3s;
+}
+
+.hidden {
+    transform: translateY(-200px);
+}
+
+/*TIL EKSAMEN: class i CCS - UDEN mellemrum = nav som har class hidden; MED mellemrum = et element i nav med class hidden*/
