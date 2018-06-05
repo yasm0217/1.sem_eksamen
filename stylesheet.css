@@ -17,6 +17,8 @@ body {
 
 }
 
+
+
 .bar {
     width: 1.8em;
     height: 0.4em;
@@ -45,8 +47,40 @@ nav {
     transition: transform .3s;
 }
 
+img {
+    height: 100%;
+    width: 100%;
+
+}
+
 .hidden {
     transform: translateY(-200px);
+
+}
+
+.artwork {
+    height: 50vw;
+    width: 100%;
+    background-color: #fae4d7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+#forside {
+    font-family: 'Anton', sans-serif;
+    font-size: 35px;
+
+
+}
+
+a {
+    text-decoration: none;
+
 }
 
 /*TIL EKSAMEN: class i CCS - UDEN mellemrum = nav som har class hidden; MED mellemrum = et element i nav med class hidden*/
