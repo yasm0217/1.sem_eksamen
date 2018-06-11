@@ -1,0 +1,219 @@
+body {
+    background-color: rgba(247, 194, 184, 0.97);
+    font-family: 'Roboto', sans-serif;
+
+
+
+}
+
+h2 {
+    margin-left: 20%;
+    margin-right: 80px;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+
+
+}
+
+
+
+a:hover {
+    background-color: rgba(240, 128, 128, 0.58);
+}
+
+
+
+
+p {
+    line-height: 1.4;
+}
+
+img {
+    height: 100%;
+    width: 70%;
+}
+
+.menubutton {
+    width: 2em;
+    height: 2em;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+
+
+}
+
+
+
+.bar {
+    width: 1.8em;
+    height: 0.5em;
+    background-color: black;
+    transition: transform .5s;
+
+}
+
+.kryds .bar1 {
+    transform: rotate(45deg) translate(7px, 9px);
+}
+
+.kryds .bar2 {
+    opacity: 0;
+}
+
+.kryds .bar3 {
+    transform: rotate(-45deg) translate(7px, -7px);
+}
+
+nav {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.87);
+    width: 100%;
+    transform-origin: top;
+    transition: transform .3s;
+
+
+
+}
+
+
+.hidden {
+    transform: translateY(-200px);
+
+}
+
+.artwork {
+    height: 50vw;
+    width: 100%;
+    background-color: rgba(255, 240, 240, 0.56);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+#forside {
+    font-family: 'Anton', sans-serif;
+    font-size: 60px;
+
+
+}
+
+
+@media screen and (max-width: 900px) {
+    .artwork {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+.cv_parent {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20%;
+
+}
+
+.cv_tekst {
+    flex-grow: 1;
+    flex-basis: 300px;
+    margin-right: 20px;
+
+}
+
+.cv_tekst2 {
+    margin-right: 20%;
+}
+
+.cv_billede {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+.webdesign_parent {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20%;
+
+}
+
+.webdesign_tekst {
+    flex-grow: 1;
+    flex-basis: 300px;
+    margin-right: 20px;
+
+}
+
+.webdesign_billede {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+.animation_parent {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20%;
+
+}
+
+.animation_tekst {
+    flex-grow: 1;
+    flex-basis: 300px;
+    margin-right: 20px;
+
+}
+
+.animation_billede {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+.video_parent {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20%;
+
+}
+
+.video_tekst {
+    flex-grow: 1;
+    flex-basis: 300px;
+    margin-right: 20px;
+
+}
+
+.video_billede {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+
+.ux_parent {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20%;
+
+}
+
+.ux_tekst {
+    flex-grow: 1;
+    flex-basis: 300px;
+    margin-right: 20px;
+
+}
+
+.ux_billede {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
